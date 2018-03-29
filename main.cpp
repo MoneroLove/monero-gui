@@ -83,8 +83,8 @@ int main(int argc, char *argv[])
     qDebug() << "app startd";
 
     app.setApplicationName("monero-core");
-    app.setOrganizationDomain("getmonero.org");
-    app.setOrganizationName("monero-project");
+    app.setOrganizationDomain("monero-original.org");
+    app.setOrganizationName("Monero Original Team");
 
     filter *eventFilter = new filter;
     app.installEventFilter(eventFilter);

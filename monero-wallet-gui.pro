@@ -89,10 +89,12 @@ ios:arm64 {
 !ios {
 LIBS += -L$$WALLET_ROOT/lib \
         -lwallet_merged \
+        -llmdb \
         -lepee \
         -lunbound \
         -leasylogging \
         -lreadline \
+		-lpcsclite \
 }
 
 
