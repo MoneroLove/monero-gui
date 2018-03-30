@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-# MONERO_URL=https://github.com/monero-project/monero.git
-# MONERO_BRANCH=master
+# MONERO_URL=https://github.com/XmanXU/monero.git
+# MONERO_BRANCH=release-v0.11.0.0
 CPU_CORE_COUNT=$(grep -c ^processor /proc/cpuinfo 2>/dev/null || sysctl -n hw.ncpu)
 pushd $(pwd)
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
