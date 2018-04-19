@@ -1,6 +1,6 @@
 #!/bin/bash
 MONERO_URL=https://github.com/XmanXU/monero.git
-MONERO_BRANCH=release-v0.11.0.0
+MONERO_BRANCH=release-v0.11.3.0
 
 pushd $(pwd)
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -17,7 +17,7 @@ if [ ! -d $MONERO_DIR/src ]; then
 fi
 git submodule update --remote
 git -C $MONERO_DIR fetch
-git -C $MONERO_DIR checkout release-v0.11.0.0
+git -C $MONERO_DIR checkout release-v0.11.3.0
 
 # get monero core tag
 get_tag
