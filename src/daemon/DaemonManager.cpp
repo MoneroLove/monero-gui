@@ -67,9 +67,6 @@ bool DaemonManager::start(const QString &flags, bool testnet, const QString &dat
         arguments << dataDir;
     }
 
-    arguments << "--check-updates" << "disabled";
-
-
 
     qDebug() << "starting monerod " + m_monerod;
     qDebug() << "With command line arguments " << arguments;
