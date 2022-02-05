@@ -83,7 +83,7 @@ int main(int argc, char *argv[])
     qDebug() << "app startd";
 
     app.setApplicationName("monero-core");
-    app.setOrganizationDomain("monero-original.org");
+    app.setOrganizationDomain("monero-love.org");
     app.setOrganizationName("Monero Original Team");
 
     filter *eventFilter = new filter;
@@ -185,7 +185,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("isIOS", isIOS);
 
     if (!moneroAccountsRootDir.empty()) {
-        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Monero-original/wallets";
+        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Monero-Love/wallets";
         engine.rootContext()->setContextProperty("moneroAccountsDir", moneroAccountsDir);
     }
 

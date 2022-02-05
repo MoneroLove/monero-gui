@@ -1,5 +1,5 @@
 #!/bin/bash
-MONERO_URL=https://github.com/XmanXU/monero.git
+MONERO_URL=https://github.com/MooneroLove/monero.git
 MONERO_BRANCH=release-v0.11.3.0
 
 pushd $(pwd)
